@@ -6,48 +6,63 @@
 */
 
 /* New Color Palette:
-* Lightest (Text):         #E8E9EB     (text, contrast with dark)
-* Dark Green (Primary):    #240404
-* Light Green (Secondary): #5E3A27      (canvas background)
-* Reddish-Brown (Accent):  #CB793A
+* Lightest (Text):         #DAD6D6    (text, contrast with dark)
+* Rose taupe (Primary):    #7D4E57
+* yellow (Secondary): #F4AC45      (canvas background)
+* green-ish blue (Accent):  #92BFB1
 */
 
 .bg-info {
-    background-color: #5E3A27 !important;
-    /* Light green for secondary backgrounds */
+    background-color: #7D4E57 !important;
+
 }
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-nav .nav-link {
-    color: #E8E9EB;
-    /* Dark green for brand name & nav links for visibility */
+    color: #DAD6D6;
+
 }
 
 .btn-info {
-    color: #E8E9EB;
-    /* Lightest shade for text on info button for contrast */
-    background-color: #5E3A27;
-    /* Light green for button background */
-    border-color: #240404;
-    /* Dark green for button border */
+    color: #DAD6D6;
+    background-color: #7D4E57;
+  
+    border-color: #F4AC45;
+
 }
 
 .btn-primary {
-    color: #E8E9EB;
-    /* Lightest shade for text */
+    color: #DAD6D6;
     font-size: 150%;
-    background-color:#240404;
-    /* Dark green for primary button background */
-    border-color: #CB793A;
-    /* Reddish-brown for border to use as accent */
-    border-width: thick;
+    background-color:#7D4E57;
+    border-color: #F4AC45;
 }
 .btn-primary:hover{
-    background-color: #CB793A;
-        /* Dark green for primary button background */
-    border-color: #240404;
+    background-color: #F4AC45;
+    border-color: #7D4E57;
 }
 body {
-    background-color: #E8E9EB;
-    /* Lightest shade for body background to follow the 60% rule */
+    background-color: #DAD6D6;
+
+}
+
+.navbar-brand {
+    font-family: 'Rubik', sans-serif;
+    font-weight:600;
+    font-size: 2.25rem;
+}
+
+form {
+    max-width: auto;
+    min-width: auto;
+    margin: 10px;
+    padding: 1em;
+}
+
+.btn {
+    background-color: #7D4E57;
+}
+
+.btn:hover{
+    background-color: #F4AC45;
 }
